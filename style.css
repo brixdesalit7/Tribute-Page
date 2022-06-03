@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: linear-gradient(to right,  #552583, #FDB927);
+
+}
+#main {
+max-width: 950px;
+display: block;
+margin: 0 auto;
+padding: 20px 10px;
+}
+fieldset {
+padding: 8px 10px;
+border: 2px solid #000000;
+}
+#title {
+text-align: center;
+font-size: 45px;
+}
+#description {
+text-align: center;
+padding: 15px 0;
+font-size: 25px;
+}
+#img-div {
+margin: 0 auto;
+display: block;
+max-width: 700px;
+}
+img {
+height: auto;
+max-width: 100%;
+margin: 0 auto;
+display: block;
+}
+#img-caption {
+font-style: italic;
+margin-top: 12px;
+text-align:left;
+}
+@media screen and (max-width: 500px) {
+#title {
+    font-size: 25px;
+}
+#main {
+max-width: 100%;
+}
+}
+#tribute-info {
+margin-top: 35px;
+}
+#tribute-info h3,#additional-info h3 {
+text-align: center;
+font-size: 35px;
+margin: 25px;
+}
+#tribute-info p {
+font-size: 19px;
+line-height: 25px;
+}
+#list-info li {
+text-align: center;
+list-style: none;
+line-height: 33px;
+font-size: 20px;
+}
+#quote {
+text-align: center;
+margin-top: 25px;
+}
+#quote p:first-child {
+font-size: 26px;
+}
+#quote p:nth-child(2) {
+margin-top: 25px;
+font-size: 23px;
+}
+#quote a {
+cursor: pointer;
+color: black;
+}
+
